@@ -113,7 +113,7 @@ if __name__ == "__main__":
     if not any([username, password]):
         raise SystemExit("No username or password provided!")
 
-    creds = get_credentials()
+    # creds = get_credentials()
 
-    print(f"User: {creds['username']}")
-    run_bot(*creds)
+    print(f"User: {username}")
+    run_bot(username, password)
