@@ -1,4 +1,4 @@
-# 🐍 Python Application with Docker 🐳
+# 🐍 InstaPy with Docker 🐳
 
 This application is a simplistic Python-powered program, elegantly running within an efficient Docker container.
 
