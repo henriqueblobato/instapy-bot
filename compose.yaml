@@ -1,0 +1,10 @@
+
+services:
+  server:
+    build: .
+    env_file:
+      - .env
+    command: ["python", "_runn.py", "${INSTAGRAM_USERNAME}", "${INSTAGRAM_PASSWORD_B64}"]
+    ports:
+      - 8000:8000
+
